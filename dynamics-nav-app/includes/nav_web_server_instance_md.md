@@ -1,0 +1,1 @@
+<span data-ttu-id="ccccc-101">Dynamics NAV Web Server</span><span class="sxs-lookup"><span data-stu-id="ccccc-101">Dynamics NAV Web Server</span></span>

@@ -1,0 +1,1 @@
+<span data-ttu-id="ec35d-101">CRONUS demonstration database</span><span class="sxs-lookup"><span data-stu-id="ec35d-101">CRONUS demonstration database</span></span>

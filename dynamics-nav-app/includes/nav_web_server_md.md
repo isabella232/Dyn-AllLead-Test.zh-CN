@@ -1,0 +1,1 @@
+<span data-ttu-id="6891e-101">Microsoft Dynamics NAV Web Server components</span><span class="sxs-lookup"><span data-stu-id="6891e-101">Microsoft Dynamics NAV Web Server components</span></span>

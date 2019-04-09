@@ -1,0 +1,1 @@
+<span data-ttu-id="ac148-101">RapidStart Services for Microsoft Dynamics NAV</span><span class="sxs-lookup"><span data-stu-id="ac148-101">RapidStart Services for Microsoft Dynamics NAV</span></span>

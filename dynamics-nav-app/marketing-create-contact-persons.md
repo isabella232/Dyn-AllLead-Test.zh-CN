@@ -1,0 +1,43 @@
+---
+title: Create Contact Persons
+description: Outlines the tasks to create a contact card for a person, for example, a prospect or supplier, helping to define the relationship and tailor communication.
+documentationcenter: ''
+author: jswymer
+ms.prod: dynamics-nav-2018
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: relationship, prospect
+ms.date: 06/06/2017
+ms.author: jswymer
+ms.openlocfilehash: 87c069d613a995dd8a8d446d0e3230f6f1faf376
+ms.sourcegitcommit: 02827d275e1341d5c9ddb7b314b43b48a9ac96e2
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 04/04/2019
+ms.locfileid: "7239"
+---
+# <a name="creating-contact-persons"></a><span data-ttu-id="87663-103">Creating Contact Persons</span><span class="sxs-lookup"><span data-stu-id="87663-103">Creating Contact Persons</span></span>
+<span data-ttu-id="87663-104">You create a contact by setting up a contact card for the person.</span><span class="sxs-lookup"><span data-stu-id="87663-104">You create a contact by setting up a contact card for the person.</span></span> <span data-ttu-id="87663-105">You can create contact persons from existing contact companies, or you can create independent contact persons.</span><span class="sxs-lookup"><span data-stu-id="87663-105">You can create contact persons from existing contact companies, or you can create independent contact persons.</span></span>
+
+<span data-ttu-id="87663-106">For example, after meeting with a prospective company, you meet the purchaser.</span><span class="sxs-lookup"><span data-stu-id="87663-106">For example, after meeting with a prospective company, you meet the purchaser.</span></span> <span data-ttu-id="87663-107">You can create a contact card for this person so communication can be more tailored.</span><span class="sxs-lookup"><span data-stu-id="87663-107">You can create a contact card for this person so communication can be more tailored.</span></span>
+
+<span data-ttu-id="87663-108">You may also need some publications about your products translated and after some research decide on a freelance translator.</span><span class="sxs-lookup"><span data-stu-id="87663-108">You may also need some publications about your products translated and after some research decide on a freelance translator.</span></span> <span data-ttu-id="87663-109">You should record this contact as an independent contact person.</span><span class="sxs-lookup"><span data-stu-id="87663-109">You should record this contact as an independent contact person.</span></span>
+
+<span data-ttu-id="87663-110">By recording as many details as possible about a contact person ensures that all groups at your company can find the relevant information.</span><span class="sxs-lookup"><span data-stu-id="87663-110">By recording as many details as possible about a contact person ensures that all groups at your company can find the relevant information.</span></span>
+
+<span data-ttu-id="87663-111">The following table describes a sequence of tasks, with links to the topics that describe them.</span><span class="sxs-lookup"><span data-stu-id="87663-111">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span> 
+
+| <span data-ttu-id="87663-112">To</span><span class="sxs-lookup"><span data-stu-id="87663-112">To</span></span> | <span data-ttu-id="87663-113">See</span><span class="sxs-lookup"><span data-stu-id="87663-113">See</span></span> |
+| --- | --- |
+| <span data-ttu-id="87663-114">Provide information about a contact person.</span><span class="sxs-lookup"><span data-stu-id="87663-114">Provide information about a contact person.</span></span> |[<span data-ttu-id="87663-115">How to: Create Contact Persons</span><span class="sxs-lookup"><span data-stu-id="87663-115">How to: Create Contact Persons</span></span>](marketing-how-create-contact-persons.md) |
+| <span data-ttu-id="87663-116">Set up an alternate address for a contact.</span><span class="sxs-lookup"><span data-stu-id="87663-116">Set up an alternate address for a contact.</span></span> |[<span data-ttu-id="87663-117">How to: Assign Alternative Addresses</span><span class="sxs-lookup"><span data-stu-id="87663-117">How to: Assign Alternative Addresses</span></span>](marketing-how-assign-alternate-address.md) |
+| <span data-ttu-id="87663-118">Describe the business relationship of a company contact.</span><span class="sxs-lookup"><span data-stu-id="87663-118">Describe the business relationship of a company contact.</span></span> |[<span data-ttu-id="87663-119">How to: Set Up Job Responsibilities on Contacts</span><span class="sxs-lookup"><span data-stu-id="87663-119">How to: Set Up Job Responsibilities on Contacts</span></span>](marketing-job-responsibilities.md) |
+| <span data-ttu-id="87663-120">Describe the organizational level of your contacts.</span><span class="sxs-lookup"><span data-stu-id="87663-120">Describe the organizational level of your contacts.</span></span> |[<span data-ttu-id="87663-121">How to: Set Up Organizational Levels for Contact Persons</span><span class="sxs-lookup"><span data-stu-id="87663-121">How to: Set Up Organizational Levels for Contact Persons</span></span>](marketing-organizational-levels.md) |
+| <span data-ttu-id="87663-122">Assign mailing groups your contacts</span><span class="sxs-lookup"><span data-stu-id="87663-122">Assign mailing groups your contacts</span></span> |[<span data-ttu-id="87663-123">Assigning Mailing Groups to a Contact</span><span class="sxs-lookup"><span data-stu-id="87663-123">Assigning Mailing Groups to a Contact</span></span>](marketing-mailing-groups.md) |
+
+## <a name="see-also"></a><span data-ttu-id="87663-124">See Also</span><span class="sxs-lookup"><span data-stu-id="87663-124">See Also</span></span>
+[<span data-ttu-id="87663-125">Creating Contact Companies</span><span class="sxs-lookup"><span data-stu-id="87663-125">Creating Contact Companies</span></span>](marketing-create-contact-companies.md)  
+[<span data-ttu-id="87663-126">Creating and Managing Contacts</span><span class="sxs-lookup"><span data-stu-id="87663-126">Creating and Managing Contacts</span></span>]()  
+[<span data-ttu-id="87663-127">Working with Dynamics NAV</span><span class="sxs-lookup"><span data-stu-id="87663-127">Working with Dynamics NAV</span></span>](ui-work-product.md)

@@ -1,0 +1,98 @@
+---
+title: How to Replan or Refresh Production Orders Directly
+description: The production order lines contain the items that are to be produced in the production order.
+documentationcenter: ''
+author: SorenGP
+ms.prod: dynamics-nav-2018
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: ''
+ms.date: 09/06/2017
+ms.author: sgroespe
+ms.openlocfilehash: 0b332201df0cf4ff6a2b06166f199450d81e362c
+ms.sourcegitcommit: 02827d275e1341d5c9ddb7b314b43b48a9ac96e2
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 04/04/2019
+ms.locfileid: "7259"
+---
+# <a name="how-to-replan-or-refresh-production-orders-directly"></a><span data-ttu-id="cb57e-103">How to: Replan or Refresh Production Orders Directly</span><span class="sxs-lookup"><span data-stu-id="cb57e-103">How to: Replan or Refresh Production Orders Directly</span></span>
+<span data-ttu-id="cb57e-104">The **Replan** function on production orders is typically used after you have added or changed components that constitute underlying production orders.</span><span class="sxs-lookup"><span data-stu-id="cb57e-104">The **Replan** function on production orders is typically used after you have added or changed components that constitute underlying production orders.</span></span> <span data-ttu-id="cb57e-105">The function calculates changes made to components and routings lines, and it includes items on lower production BOM levels for which it may generate new production orders.</span><span class="sxs-lookup"><span data-stu-id="cb57e-105">The function calculates changes made to components and routings lines, and it includes items on lower production BOM levels for which it may generate new production orders.</span></span>  
+
+<span data-ttu-id="cb57e-106">Based on the changes you have made to the components and routing lines, the Replan function calculates and plans for any new demand for the production order.</span><span class="sxs-lookup"><span data-stu-id="cb57e-106">Based on the changes you have made to the components and routing lines, the Replan function calculates and plans for any new demand for the production order.</span></span>  
+
+<span data-ttu-id="cb57e-107">The **Refresh** function on production orders is typically used after you have done one of the following:</span><span class="sxs-lookup"><span data-stu-id="cb57e-107">The **Refresh** function on production orders is typically used after you have done one of the following:</span></span>
+
+- <span data-ttu-id="cb57e-108">Created a production order header manually to calculate and create line data for the first time.</span><span class="sxs-lookup"><span data-stu-id="cb57e-108">Created a production order header manually to calculate and create line data for the first time.</span></span>
+- <span data-ttu-id="cb57e-109">Made changes to the production order header to recalculate all the line data.</span><span class="sxs-lookup"><span data-stu-id="cb57e-109">Made changes to the production order header to recalculate all the line data.</span></span>
+
+<span data-ttu-id="cb57e-110">The Refresh function calculates changes made to a production order header and does not involve production BOM levels.</span><span class="sxs-lookup"><span data-stu-id="cb57e-110">The Refresh function calculates changes made to a production order header and does not involve production BOM levels.</span></span> <span data-ttu-id="cb57e-111">The function calculates and initiates the values of the component lines and routing lines based on the master data defined in the assigned production BOM and routing, according to the order quantity and due date on the production order’s header.</span><span class="sxs-lookup"><span data-stu-id="cb57e-111">The function calculates and initiates the values of the component lines and routing lines based on the master data defined in the assigned production BOM and routing, according to the order quantity and due date on the production order’s header.</span></span>
+
+<span data-ttu-id="cb57e-112">You can either insert the production order lines manually or use the function that calculates the production order lines from the header.</span><span class="sxs-lookup"><span data-stu-id="cb57e-112">You can either insert the production order lines manually or use the function that calculates the production order lines from the header.</span></span>  
+
+> [!NOTE]
+>  <span data-ttu-id="cb57e-113">If you use the Refresh function to recalculate production order lines, the old production order lines are deleted and new lines are calculated.</span><span class="sxs-lookup"><span data-stu-id="cb57e-113">If you use the Refresh function to recalculate production order lines, the old production order lines are deleted and new lines are calculated.</span></span>  
+
+## <a name="to-replan-a-production-order"></a><span data-ttu-id="cb57e-114">To replan a production order</span><span class="sxs-lookup"><span data-stu-id="cb57e-114">To replan a production order</span></span>  
+1.  <span data-ttu-id="cb57e-115">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="cb57e-115">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="cb57e-116">Open the production order you want to replan.</span><span class="sxs-lookup"><span data-stu-id="cb57e-116">Open the production order you want to replan.</span></span>  
+3.  <span data-ttu-id="cb57e-117">On the **Lines** FastTab, choose the **Lines** action, and then choose the **Components** action.</span><span class="sxs-lookup"><span data-stu-id="cb57e-117">On the **Lines** FastTab, choose the **Lines** action, and then choose the **Components** action.</span></span>  
+4.  <span data-ttu-id="cb57e-118">Add a component, which is a produced item or subassembly.</span><span class="sxs-lookup"><span data-stu-id="cb57e-118">Add a component, which is a produced item or subassembly.</span></span>  
+5.  <span data-ttu-id="cb57e-119">From the production order, choose the **Replan** action.</span><span class="sxs-lookup"><span data-stu-id="cb57e-119">From the production order, choose the **Replan** action.</span></span>  
+
+    <span data-ttu-id="cb57e-120">In the **Replan Production Order** window, proceed to define how and what to replan.</span><span class="sxs-lookup"><span data-stu-id="cb57e-120">In the **Replan Production Order** window, proceed to define how and what to replan.</span></span>  
+6.  <span data-ttu-id="cb57e-121">In the **Scheduling Direction** field, select one of the following options.</span><span class="sxs-lookup"><span data-stu-id="cb57e-121">In the **Scheduling Direction** field, select one of the following options.</span></span>  
+
+    |<span data-ttu-id="cb57e-122">Option</span><span class="sxs-lookup"><span data-stu-id="cb57e-122">Option</span></span>|<span data-ttu-id="cb57e-123">Description</span><span class="sxs-lookup"><span data-stu-id="cb57e-123">Description</span></span>|  
+    |----------------------------------|---------------------------------------|  
+    |**<span data-ttu-id="cb57e-124">Back</span><span class="sxs-lookup"><span data-stu-id="cb57e-124">Back</span></span>**|<span data-ttu-id="cb57e-125">Calculates the operation sequence backwards from the earliest possible ending date, defined by due date and/or other scheduled orders, to the latest possible starting date.</span><span class="sxs-lookup"><span data-stu-id="cb57e-125">Calculates the operation sequence backwards from the earliest possible ending date, defined by due date and/or other scheduled orders, to the latest possible starting date.</span></span> <span data-ttu-id="cb57e-126">**Note:**  This default option is relevant in the majority of situations.</span><span class="sxs-lookup"><span data-stu-id="cb57e-126">**Note:**  This default option is relevant in the majority of situations.</span></span>|  
+    |**<span data-ttu-id="cb57e-127">Forward</span><span class="sxs-lookup"><span data-stu-id="cb57e-127">Forward</span></span>**|<span data-ttu-id="cb57e-128">Calculates the operation sequence forward from the earliest latest possible starting date, defined by due date and/or other scheduled orders, to the earliest possible ending date.</span><span class="sxs-lookup"><span data-stu-id="cb57e-128">Calculates the operation sequence forward from the earliest latest possible starting date, defined by due date and/or other scheduled orders, to the earliest possible ending date.</span></span> <span data-ttu-id="cb57e-129">**Note:**  This option is only relevant for expedite orders.</span><span class="sxs-lookup"><span data-stu-id="cb57e-129">**Note:**  This option is only relevant for expedite orders.</span></span>|  
+
+7.  <span data-ttu-id="cb57e-130">In the **Plan** field, select whether to calculate production requirements for produced items on the production BOM, as follows.</span><span class="sxs-lookup"><span data-stu-id="cb57e-130">In the **Plan** field, select whether to calculate production requirements for produced items on the production BOM, as follows.</span></span>  
+
+    |<span data-ttu-id="cb57e-131">Option</span><span class="sxs-lookup"><span data-stu-id="cb57e-131">Option</span></span>|<span data-ttu-id="cb57e-132">Description</span><span class="sxs-lookup"><span data-stu-id="cb57e-132">Description</span></span>|  
+    |----------------------------------|---------------------------------------|  
+    |**<span data-ttu-id="cb57e-133">No Levels</span><span class="sxs-lookup"><span data-stu-id="cb57e-133">No Levels</span></span>**|<span data-ttu-id="cb57e-134">Do not consider lower level production.</span><span class="sxs-lookup"><span data-stu-id="cb57e-134">Do not consider lower level production.</span></span> <span data-ttu-id="cb57e-135">This only updates the item’s schedule, like refresh.</span><span class="sxs-lookup"><span data-stu-id="cb57e-135">This only updates the item’s schedule, like refresh.</span></span>|  
+    |**<span data-ttu-id="cb57e-136">One Level</span><span class="sxs-lookup"><span data-stu-id="cb57e-136">One Level</span></span>**|<span data-ttu-id="cb57e-137">Plan for first-level production demand.</span><span class="sxs-lookup"><span data-stu-id="cb57e-137">Plan for first-level production demand.</span></span> <span data-ttu-id="cb57e-138">First-level production orders may be created.</span><span class="sxs-lookup"><span data-stu-id="cb57e-138">First-level production orders may be created.</span></span>|  
+    |**<span data-ttu-id="cb57e-139">All Levels</span><span class="sxs-lookup"><span data-stu-id="cb57e-139">All Levels</span></span>**|<span data-ttu-id="cb57e-140">Plan for all-level production demand.</span><span class="sxs-lookup"><span data-stu-id="cb57e-140">Plan for all-level production demand.</span></span> <span data-ttu-id="cb57e-141">All-level production orders may be created.</span><span class="sxs-lookup"><span data-stu-id="cb57e-141">All-level production orders may be created.</span></span>|  
+
+8.  <span data-ttu-id="cb57e-142">Select **One Level**, and choose the **OK** button to replan the production order, and calculate and create a new underlying production order for the introduced subassembly, if it is not fully available.</span><span class="sxs-lookup"><span data-stu-id="cb57e-142">Select **One Level**, and choose the **OK** button to replan the production order, and calculate and create a new underlying production order for the introduced subassembly, if it is not fully available.</span></span>  
+
+> [!NOTE]  
+>  <span data-ttu-id="cb57e-143">Changes implemented with the **Replan** function are very likely to change the capacity need of the production order and you may therefore have to reschedule operations afterwards.</span><span class="sxs-lookup"><span data-stu-id="cb57e-143">Changes implemented with the **Replan** function are very likely to change the capacity need of the production order and you may therefore have to reschedule operations afterwards.</span></span>  
+
+## <a name="to-refresh-a-production-order"></a><span data-ttu-id="cb57e-144">To refresh a production order</span><span class="sxs-lookup"><span data-stu-id="cb57e-144">To refresh a production order</span></span>  
+<span data-ttu-id="cb57e-145">If you have amended production order lines, components, or routing lines, you must also refresh the information on the production order.</span><span class="sxs-lookup"><span data-stu-id="cb57e-145">If you have amended production order lines, components, or routing lines, you must also refresh the information on the production order.</span></span> <span data-ttu-id="cb57e-146">In the following procedure, the components are calculated for a firm planned production order.</span><span class="sxs-lookup"><span data-stu-id="cb57e-146">In the following procedure, the components are calculated for a firm planned production order.</span></span> <span data-ttu-id="cb57e-147">The steps are similar for routing lines.</span><span class="sxs-lookup"><span data-stu-id="cb57e-147">The steps are similar for routing lines.</span></span>
+
+1. <span data-ttu-id="cb57e-148">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Firm Planned Prod. Order**, and then choose the related link.</span><span class="sxs-lookup"><span data-stu-id="cb57e-148">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Firm Planned Prod. Order**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="cb57e-149">Choose the **New** action.</span><span class="sxs-lookup"><span data-stu-id="cb57e-149">Choose the **New** action.</span></span> <span data-ttu-id="cb57e-150">For more information, see [How to: Create Production orders](production-how-to-create-production-orders.md).</span><span class="sxs-lookup"><span data-stu-id="cb57e-150">For more information, see [How to: Create Production orders](production-how-to-create-production-orders.md).</span></span>  
+3. <span data-ttu-id="cb57e-151">Choose the **Refresh** action.</span><span class="sxs-lookup"><span data-stu-id="cb57e-151">Choose the **Refresh** action.</span></span>
+4. <span data-ttu-id="cb57e-152">In the **Refresh Production Order** window, select one of the following options:</span><span class="sxs-lookup"><span data-stu-id="cb57e-152">In the **Refresh Production Order** window, select one of the following options:</span></span>
+
+
+   |          <span data-ttu-id="cb57e-153">Option</span><span class="sxs-lookup"><span data-stu-id="cb57e-153">Option</span></span>          |        <span data-ttu-id="cb57e-154">Description</span><span class="sxs-lookup"><span data-stu-id="cb57e-154">Description</span></span>         |
+   |--------------------------|----------------------------|
+   | **<span data-ttu-id="cb57e-155">Scheduling Direction</span><span class="sxs-lookup"><span data-stu-id="cb57e-155">Scheduling Direction</span></span>** |        **<span data-ttu-id="cb57e-156">Forward</span><span class="sxs-lookup"><span data-stu-id="cb57e-156">Forward</span></span>**         |
+   |                          |        **<span data-ttu-id="cb57e-157">Backward</span><span class="sxs-lookup"><span data-stu-id="cb57e-157">Backward</span></span>**        |
+   |      **<span data-ttu-id="cb57e-158">Calculate</span><span class="sxs-lookup"><span data-stu-id="cb57e-158">Calculate</span></span>**       |         **<span data-ttu-id="cb57e-159">Lines</span><span class="sxs-lookup"><span data-stu-id="cb57e-159">Lines</span></span>**          |
+   |                          |        **<span data-ttu-id="cb57e-160">Routings</span><span class="sxs-lookup"><span data-stu-id="cb57e-160">Routings</span></span>**        |
+   |                          |     **<span data-ttu-id="cb57e-161">Component Need</span><span class="sxs-lookup"><span data-stu-id="cb57e-161">Component Need</span></span>**     |
+   |      **<span data-ttu-id="cb57e-162">Warehouse</span><span class="sxs-lookup"><span data-stu-id="cb57e-162">Warehouse</span></span>**       | **<span data-ttu-id="cb57e-163">Create Inbound Request</span><span class="sxs-lookup"><span data-stu-id="cb57e-163">Create Inbound Request</span></span>** |
+
+
+5. <span data-ttu-id="cb57e-164">Choose the **OK** button to confirm your selection.</span><span class="sxs-lookup"><span data-stu-id="cb57e-164">Choose the **OK** button to confirm your selection.</span></span> <span data-ttu-id="cb57e-165">Now the production order lines are calculated.</span><span class="sxs-lookup"><span data-stu-id="cb57e-165">Now the production order lines are calculated.</span></span>
+
+> [!NOTE]  
+>  <span data-ttu-id="cb57e-166">Calculating production order components deletes previous changes in the components.</span><span class="sxs-lookup"><span data-stu-id="cb57e-166">Calculating production order components deletes previous changes in the components.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="cb57e-167">See Also</span><span class="sxs-lookup"><span data-stu-id="cb57e-167">See Also</span></span>  
+[<span data-ttu-id="cb57e-168">Planning</span><span class="sxs-lookup"><span data-stu-id="cb57e-168">Planning</span></span>](production-planning.md)  
+[<span data-ttu-id="cb57e-169">Setting Up Manufacturing</span><span class="sxs-lookup"><span data-stu-id="cb57e-169">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
+[<span data-ttu-id="cb57e-170">Manufacturing</span><span class="sxs-lookup"><span data-stu-id="cb57e-170">Manufacturing</span></span>](production-manage-manufacturing.md)    
+[<span data-ttu-id="cb57e-171">Inventory</span><span class="sxs-lookup"><span data-stu-id="cb57e-171">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="cb57e-172">Purchasing</span><span class="sxs-lookup"><span data-stu-id="cb57e-172">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+[<span data-ttu-id="cb57e-173">Design Details: Supply Planning</span><span class="sxs-lookup"><span data-stu-id="cb57e-173">Design Details: Supply Planning</span></span>](design-details-supply-planning.md)   
+[<span data-ttu-id="cb57e-174">Setup Best Practices: Supply Planning</span><span class="sxs-lookup"><span data-stu-id="cb57e-174">Setup Best Practices: Supply Planning</span></span>](setup-best-practices-supply-planning.md)  
+[<span data-ttu-id="cb57e-175">Working with</span><span class="sxs-lookup"><span data-stu-id="cb57e-175">Working with</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

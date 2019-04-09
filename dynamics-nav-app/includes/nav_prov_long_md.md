@@ -1,0 +1,1 @@
+<span data-ttu-id="afcb7-101">Microsoft Dynamics NAV Provisioning Tools for Microsoft Azure</span><span class="sxs-lookup"><span data-stu-id="afcb7-101">Microsoft Dynamics NAV Provisioning Tools for Microsoft Azure</span></span>

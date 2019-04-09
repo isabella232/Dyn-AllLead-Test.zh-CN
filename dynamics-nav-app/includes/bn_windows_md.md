@@ -1,0 +1,1 @@
+<span data-ttu-id="f34e3-101">To see the window topics in this section, choose the subentries in the table of contents.</span><span class="sxs-lookup"><span data-stu-id="f34e3-101">To see the window topics in this section, choose the subentries in the table of contents.</span></span>

@@ -1,0 +1,59 @@
+---
+title: Viewing and Editing Basic Settings in Dynamics NAV
+description: Learn how to change some of the basic settings in Dynamics NAV, for example, the Role Center, company, or the work date.
+documentationcenter: ''
+author: SusanneWindfeldPedersen
+ms.prod: dynamics-nav-2018
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: change Role Center, notification, change company, change work date
+ms.date: 03/29/2017
+ms.author: solsen
+ms.openlocfilehash: 61aa93c4b2a46ba8e0a49a6f576635019fa9d9e0
+ms.sourcegitcommit: 02827d275e1341d5c9ddb7b314b43b48a9ac96e2
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 04/04/2019
+ms.locfileid: "7355"
+---
+# <a name="changing-basic-settings"></a><span data-ttu-id="d90f2-103">Changing Basic Settings</span><span class="sxs-lookup"><span data-stu-id="d90f2-103">Changing Basic Settings</span></span>
+<span data-ttu-id="d90f2-104">In the **My Settings** window, you can see and change basic settings for [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="d90f2-104">In the **My Settings** window, you can see and change basic settings for [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>  
+
+## <a name="role-center"></a><span data-ttu-id="d90f2-105">Role Center</span><span class="sxs-lookup"><span data-stu-id="d90f2-105">Role Center</span></span>
+<span data-ttu-id="d90f2-106">The Role Center represents the Home page, a starting page that is designed for the needs of the role.</span><span class="sxs-lookup"><span data-stu-id="d90f2-106">The Role Center represents the Home page, a starting page that is designed for the needs of the role.</span></span> <span data-ttu-id="d90f2-107">On the Home page, you have an overview of the business.</span><span class="sxs-lookup"><span data-stu-id="d90f2-107">On the Home page, you have an overview of the business.</span></span> <span data-ttu-id="d90f2-108">To the left you see a navigation bar that gives you easy access to customers, vendors, items, and so on.</span><span class="sxs-lookup"><span data-stu-id="d90f2-108">To the left you see a navigation bar that gives you easy access to customers, vendors, items, and so on.</span></span>
+
+<span data-ttu-id="d90f2-109">In the center you find the Activities tiles.</span><span class="sxs-lookup"><span data-stu-id="d90f2-109">In the center you find the Activities tiles.</span></span> <span data-ttu-id="d90f2-110">Activities show current data and can be chooseed or tapped for easy access to the selected document.</span><span class="sxs-lookup"><span data-stu-id="d90f2-110">Activities show current data and can be chooseed or tapped for easy access to the selected document.</span></span> <span data-ttu-id="d90f2-111">The Key Performance Indicators can be set up to display a selected chart for a visual representation of, for example, cash flow or income and expenses.</span><span class="sxs-lookup"><span data-stu-id="d90f2-111">The Key Performance Indicators can be set up to display a selected chart for a visual representation of, for example, cash flow or income and expenses.</span></span>
+
+<span data-ttu-id="d90f2-112">You can also build up a list of Favorite Customers on the Home page for accounts that you do business with often or need to pay special attention to.</span><span class="sxs-lookup"><span data-stu-id="d90f2-112">You can also build up a list of Favorite Customers on the Home page for accounts that you do business with often or need to pay special attention to.</span></span> <span data-ttu-id="d90f2-113">Use the arrows to collapse part of the page and make more room to show specific data.</span><span class="sxs-lookup"><span data-stu-id="d90f2-113">Use the arrows to collapse part of the page and make more room to show specific data.</span></span> <span data-ttu-id="d90f2-114">At the top of the Home page you will find all of the actions that can be applied to the current content.</span><span class="sxs-lookup"><span data-stu-id="d90f2-114">At the top of the Home page you will find all of the actions that can be applied to the current content.</span></span> <span data-ttu-id="d90f2-115">This too can be collapsed and you only need to choose or tap within the collapsed area to view it again.</span><span class="sxs-lookup"><span data-stu-id="d90f2-115">This too can be collapsed and you only need to choose or tap within the collapsed area to view it again.</span></span>
+
+<span data-ttu-id="d90f2-116">The default Role Center is **Business Manager**, but you can select another Role Center that fits your needs better.</span><span class="sxs-lookup"><span data-stu-id="d90f2-116">The default Role Center is **Business Manager**, but you can select another Role Center that fits your needs better.</span></span> <span data-ttu-id="d90f2-117">For more information, see [How to: Change the Role Center](change-role.md).</span><span class="sxs-lookup"><span data-stu-id="d90f2-117">For more information, see [How to: Change the Role Center](change-role.md).</span></span>
+
+## <a name="company"></a><span data-ttu-id="d90f2-118">Company</span><span class="sxs-lookup"><span data-stu-id="d90f2-118">Company</span></span>
+<span data-ttu-id="d90f2-119">A company functions as a container for data in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="d90f2-119">A company functions as a container for data in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="d90f2-120">There can be multiple companies in a database, but only one can be selected at a time.</span><span class="sxs-lookup"><span data-stu-id="d90f2-120">There can be multiple companies in a database, but only one can be selected at a time.</span></span>
+
+<span data-ttu-id="d90f2-121">The default company is called CRONUS and contains demonstration data only.</span><span class="sxs-lookup"><span data-stu-id="d90f2-121">The default company is called CRONUS and contains demonstration data only.</span></span>
+
+> [!TIP]  
+>   <span data-ttu-id="d90f2-122">If you want to display a different name for your company in the application (such as on the Home page), set the **Name** field on the **Company Information** page or the **Display Name** field on the **Companies** page.</span><span class="sxs-lookup"><span data-stu-id="d90f2-122">If you want to display a different name for your company in the application (such as on the Home page), set the **Name** field on the **Company Information** page or the **Display Name** field on the **Companies** page.</span></span>  
+
+## <a name="work-date"></a><span data-ttu-id="d90f2-123">Work Date</span><span class="sxs-lookup"><span data-stu-id="d90f2-123">Work Date</span></span>
+<span data-ttu-id="d90f2-124">The default work date is usually today's date.</span><span class="sxs-lookup"><span data-stu-id="d90f2-124">The default work date is usually today's date.</span></span> <span data-ttu-id="d90f2-125">You may have to temporarily change the work date to be able to perform tasks, such as completing transactions for a date that is not the current date.</span><span class="sxs-lookup"><span data-stu-id="d90f2-125">You may have to temporarily change the work date to be able to perform tasks, such as completing transactions for a date that is not the current date.</span></span>
+
+> [!TIP]  
+>   <span data-ttu-id="d90f2-126">Type **w** to quickly enter the work date in a date field.</span><span class="sxs-lookup"><span data-stu-id="d90f2-126">Type **w** to quickly enter the work date in a date field.</span></span> <span data-ttu-id="d90f2-127">Write **t** to quickly enter the current date in the date field.</span><span class="sxs-lookup"><span data-stu-id="d90f2-127">Write **t** to quickly enter the current date in the date field.</span></span>
+
+> [!IMPORTANT]  
+>   <span data-ttu-id="d90f2-128">The work date is only changed until you close the company or until the date changes.</span><span class="sxs-lookup"><span data-stu-id="d90f2-128">The work date is only changed until you close the company or until the date changes.</span></span> <span data-ttu-id="d90f2-129">If you open a different company or open the same company the next day and still have to use a different work date, then you must set the work date again.</span><span class="sxs-lookup"><span data-stu-id="d90f2-129">If you open a different company or open the same company the next day and still have to use a different work date, then you must set the work date again.</span></span>
+
+## <a name="region"></a><span data-ttu-id="d90f2-130">Region</span><span class="sxs-lookup"><span data-stu-id="d90f2-130">Region</span></span>
+<span data-ttu-id="d90f2-131">The **Region** setting determines how dates, times, numbers, and currencies are shown or formatted.</span><span class="sxs-lookup"><span data-stu-id="d90f2-131">The **Region** setting determines how dates, times, numbers, and currencies are shown or formatted.</span></span>   
+
+## <a name="changing-when-i-receive-notifications"></a><span data-ttu-id="d90f2-132">Changing When I Receive Notifications</span><span class="sxs-lookup"><span data-stu-id="d90f2-132">Changing When I Receive Notifications</span></span>
+<span data-ttu-id="d90f2-133">Choose this link to view or change the notifications that you get about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance, or the available inventory is lower than the quantity you are about to sell.</span><span class="sxs-lookup"><span data-stu-id="d90f2-133">Choose this link to view or change the notifications that you get about certain events or changes in status, such as when you are about to invoice a customer who has an overdue balance, or the available inventory is lower than the quantity you are about to sell.</span></span> <span data-ttu-id="d90f2-134">For more information, see [Smart Notifications](ui-smart-notifications.md).</span><span class="sxs-lookup"><span data-stu-id="d90f2-134">For more information, see [Smart Notifications](ui-smart-notifications.md).</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="d90f2-135">See Also</span><span class="sxs-lookup"><span data-stu-id="d90f2-135">See Also</span></span>
+[<span data-ttu-id="d90f2-136">Working with</span><span class="sxs-lookup"><span data-stu-id="d90f2-136">Working with</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[<span data-ttu-id="d90f2-137">How to: Change the Role Center</span><span class="sxs-lookup"><span data-stu-id="d90f2-137">How to: Change the Role Center</span></span>](change-role.md)  
+[<span data-ttu-id="d90f2-138">Customizing</span><span class="sxs-lookup"><span data-stu-id="d90f2-138">Customizing</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)  
